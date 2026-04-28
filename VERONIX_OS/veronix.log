@@ -1,0 +1,49 @@
+2026-04-23 17:14:13,958 [INFO] HTTP Request: GET http://127.0.0.1:11434 "HTTP/1.1 200 OK"
+2026-04-23 17:14:13,972 [INFO] HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-04-23 17:14:13,975 [INFO] ✅ LLM ready
+2026-04-23 17:14:14,435 [INFO] HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-base/revision/main "HTTP/1.1 200 OK"
+2026-04-23 17:14:14,773 [INFO] ✅ UI launched
+2026-04-23 17:14:14,775 [INFO] 🎤 TTS started
+2026-04-23 17:14:20,321 [INFO] Processing audio with duration 00:05.000
+2026-04-23 17:14:20,406 [INFO] VAD filter removed 00:01.680 of audio
+2026-04-23 17:14:32,023 [INFO] Processing audio with duration 00:05.000
+2026-04-23 17:14:32,033 [INFO] VAD filter removed 00:02.864 of audio
+2026-04-23 17:14:32,588 [INFO] Input: Better mix...
+2026-04-23 17:14:34,675 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 17:15:01,894 [INFO] Processing audio with duration 00:05.000
+2026-04-23 17:15:01,902 [INFO] VAD filter removed 00:00.656 of audio
+2026-04-23 17:15:02,517 [INFO] Input: Can you explain me what what you know about...
+2026-04-23 17:15:03,515 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 17:15:45,561 [INFO] Processing audio with duration 00:05.000
+2026-04-23 17:15:45,570 [INFO] VAD filter removed 00:03.376 of audio
+2026-04-23 17:15:46,139 [INFO] Input: That's cool...
+2026-04-23 17:15:46,680 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 17:16:05,777 [INFO] Processing audio with duration 00:05.000
+2026-04-23 17:16:05,787 [INFO] VAD filter removed 00:02.320 of audio
+2026-04-23 17:16:06,377 [INFO] Input: Why don't you develop yourself?...
+2026-04-23 17:16:07,132 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 17:17:02,528 [INFO] Processing audio with duration 00:05.000
+2026-04-23 17:17:02,537 [INFO] VAD filter removed 00:02.664 of audio
+2026-04-23 17:17:03,108 [INFO] Input: Do you know mathematics?...
+2026-04-23 17:17:03,742 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 17:17:22,111 [INFO] Processing audio with duration 00:05.000
+2026-04-23 17:17:22,121 [INFO] VAD filter removed 00:02.696 of audio
+2026-04-23 17:17:22,693 [INFO] Input: And what about machine learning?...
+2026-04-23 17:17:23,411 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 17:17:47,828 [INFO] Processing audio with duration 00:05.000
+2026-04-23 17:17:47,837 [INFO] VAD filter removed 00:03.152 of audio
+2026-04-23 17:17:48,406 [INFO] Input: Can you open the node?...
+2026-04-23 17:17:48,909 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 17:18:05,028 [INFO] Processing audio with duration 00:05.000
+2026-04-23 17:18:05,037 [INFO] VAD filter removed 00:03.336 of audio
+2026-04-23 17:18:05,597 [INFO] Input: Open notepad...
+2026-04-23 17:18:06,095 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 17:18:21,536 [INFO] Processing audio with duration 00:05.000
+2026-04-23 17:18:21,545 [INFO] VAD filter removed 00:03.304 of audio
+2026-04-23 17:18:22,299 [INFO] Input: So open it...
+2026-04-23 17:18:22,846 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-23 17:18:41,311 [INFO] Processing audio with duration 00:05.000
+2026-04-23 17:18:41,320 [INFO] VAD filter removed 00:04.336 of audio
+2026-04-23 17:18:53,134 [INFO] Processing audio with duration 00:05.000
+2026-04-23 17:18:53,145 [INFO] VAD filter removed 00:02.448 of audio
+2026-04-23 17:18:53,715 [INFO] Input: Okay, bye...

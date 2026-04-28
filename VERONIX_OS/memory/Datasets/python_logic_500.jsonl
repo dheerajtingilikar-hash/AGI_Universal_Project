@@ -1,0 +1,500 @@
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(8))"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(5))"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(4))"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(6))"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(3))"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(4))"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(4))"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(5))"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(6))"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(5))"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(5))"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(8))"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(3))"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(3))"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(7))"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(7))"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(3))"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(5))"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(4))"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(4))"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(6))"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(6))"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(4))"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(5))"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(7))"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(3))"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(7))"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(6))"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(7))"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(6))"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(4))"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(3))"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(8))"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(5))"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(4))"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(3))"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(4))"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(7))"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(5))"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(7))"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(3))"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(4))"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(6))"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(8))"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(5))"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(3))"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(6))"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(8))"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(5))"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(5))"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(6))"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(6))"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(8))"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(3))"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Generate squares of numbers from 1 to 10.", "input": "", "output": "def generate_squares():\n    squares = [x**2 for x in range(1, 11)]\n    print(squares)\n\ngenerate_squares()"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(3))"}
+{"instruction": "Read a file line by line in Python.", "input": "", "output": "def read_file():\n    with open('data.txt') as f:\n        for line in f:\n            print(line.strip())\n\nread_file()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Check if a string is palindrome.", "input": "", "output": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('radar'))"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(7))"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Find factorial of a number.", "input": "", "output": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(4))"}
+{"instruction": "Reverse a string in Python.", "input": "", "output": "def reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string('hello'))"}
+{"instruction": "Find the maximum value in a list.", "input": "", "output": "def find_max():\n    nums = [10, 5, 20, 8]\n    print(max(nums))\n\nfind_max()"}
+{"instruction": "Handle exceptions in Python.", "input": "", "output": "def handle():\n    try:\n        x = int(input())\n        print(10/x)\n    except Exception as e:\n        print('Error:', e)\n\nhandle()"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
+{"instruction": "Check if a number is prime.", "input": "", "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnum = int(input())\nprint('Prime' if is_prime(num) else 'Not Prime')"}
+{"instruction": "Merge two dictionaries in Python.", "input": "", "output": "def merge_dicts(d1, d2):\n    return {**d1, **d2}\n\nprint(merge_dicts({'a': 1}, {'b': 2}))"}
+{"instruction": "Filter even numbers from a list.", "input": "", "output": "def filter_even():\n    nums = [1,2,3,4,5,6]\n    evens = [x for x in nums if x % 2 == 0]\n    print(evens)\n\nfilter_even()"}
