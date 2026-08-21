@@ -1,0 +1,44 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "file: Staff_Tech_Stack",
+      "color": {
+        "a": 1,
+        "rgb": 2199524
+      }
+    },
+    {
+      "query": "file:00_OMNI_BRAIN",
+      "color": {
+        "a": 1,
+        "rgb": 4497380
+      }
+    },
+    {
+      "query": "tag:#AGI-Project  ",
+      "color": {
+        "a": 1,
+        "rgb": 2006492
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 0.797817047817048,
+  "lineSizeMultiplier": 1.85727650727651,
+  "collapse-forces": false,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.027019967145680782,
+  "close": true
+}

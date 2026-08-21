@@ -1,0 +1,58 @@
+﻿# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# AI models and weights
+Models/
+**/models/
+*.bin
+*.safetensors
+*.onnx
+*.pt
+*.pth
+*.ckpt
+
+# Training outputs and checkpoints
+**/training/outputs/
+**/checkpoints/
+
+# Caches
+unsloth_compiled_cache/
+.cache/
+**/.cache/
+
+# Logs
+*.log
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+secrets/
+credentials/
+
+# OS/editor files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Old Git metadata backups
+.git_old/
+.git_broken/
+
+# Runtime data and local memory
+Brain_Data/
+*.sqlite
+*.db
+*.jsonl
+
+# Runtime logs
+*.log
+crash_report.txt
+error_log.txt
+
+# Generated audio
+*.wav
